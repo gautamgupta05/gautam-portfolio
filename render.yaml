@@ -5,8 +5,12 @@ services:
     plan: free
     region: oregon
     dockerfilePath: Dockerfile
-    buildCommand: ""
-    startCommand: php artisan serve --host=0.0.0.0 --port=8000
+    buildCommand: |
+      composer install --no-dev --optimize-autoloader &&
+      php artisan config:cache &&
+      php artisan route:cache &&
+      php artisan view:cache
+    startCommand: "" # No need; CMD is in Dockerfile
     envVars:
       - key: APP_ENV
         value: production
@@ -14,4 +18,3 @@ services:
         generateValue: true
       - key: APP_DEBUG
         value: false
-
