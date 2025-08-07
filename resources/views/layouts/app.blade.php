@@ -198,23 +198,23 @@
     </footer>
     <!--================ [ Footer section Exit ] ================-->
     <!--================ [Jquery File] ================-->
-    <script src="{{ asset('assets/js/jquery.min.js')}}"></script>
-    <script src="{{ asset('assets/js/jquery-migrate-1.2.1.min.js')}}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-migrate-1.2.1.min.js') }}"></script>
     <!--================ [magnific-popup File] ================-->
-    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <!--=================== [Slick File] ===================-->
-    <script src="{{ asset('assets/js/slick.min.js')}}"></script>
+    <script src="{{ asset('assets/js/slick.min.js') }}"></script>
     <!--=================== [player File] ===================-->
-    <script src="{{ asset('assets/js/player.js')}}"></script>
+    <script src="{{ asset('assets/js/player.js') }}"></script>
     <!--================ [gsap File] ================-->
-    <script src="{{ asset('assets/js/gsap.min.js')}}"></script>
+    <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
     <!--================ [Bootstrap File] ================-->
-    <script src="{{ asset('assets/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <!--================ [Separate File] ================-->
-    <script src="{{ asset('assets/js/separate.js')}}"></script>
+    <script src="{{ asset('assets/js/separate.js') }}"></script>
     <!--================ [script File] ================-->
 
-    <script src="{{ asset('assets/js/script.js')}}"></script>
+    <script src="{{ asset('assets/js/script.js') }}"></script>
 </body>
 
 </html>
