@@ -110,7 +110,7 @@
                     <div class="skill row align-items-center justify-content-between menu-resume">
                         <div class="col-1 box-detail">
                             <div class="box-skill">
-                                {{-- <img src="assets/images/resume/laravel-svgrepo-com.svg" alt="bootstrap"> --}}
+                                {{-- <img s{{ asset('assets/images/resume/laravel-svgrepo-com.svg" alt="bootstrap"> --}}
                                 <svg fill="#ffffff" width="64px" height="64px" viewBox="0 -5.5 35 35"
                                     xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="col-1 box-detail">
                             <div class="box-skill">
-                                {{-- <img src="assets/images/resume/html.svg" alt="html"> --}}
+                                {{-- <img s{{ asset('assets/images/resume/html.svg" alt="html"> --}}
                                 <svg fill="#ffffff" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px"
                                     viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -147,7 +147,7 @@
                         </div>
                         <div class="col-1 box-detail">
                             <div class="box-skill">
-                                {{-- <img src="assets/images/resume/css.svg" alt="css"> --}}
+                                {{-- <img s{{ asset('assets/images/resume/css.svg" alt="css"> --}}
                                 <svg fill="#ffffff" width="64px" height="64px" viewBox="0 0 32 32" version="1.1"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -165,7 +165,7 @@
                         </div>
                         <div class="col-1 box-detail">
                             <div class="box-skill">
-                                {{-- <img src="assets/images/resume/php.svg" alt="php"> --}}
+                                {{-- <img s{{ asset('assets/images/resume/php.svg" alt="php"> --}}
                                 <svg width="64px" height="64px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                     fill="#ffffff">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -185,7 +185,7 @@
                         </div>
                         <div class="col-1 box-detail">
                             <div class="box-skill">
-                                {{-- <img src="assets/images/resume/laravel.svg" alt="laravel"> --}}
+                                {{-- <img s{{ asset('assets/images/resume/laravel.svg" alt="laravel"> --}}
                                 <svg fill="#ffffff" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px"
                                     viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -205,7 +205,7 @@
                         </div>
                         <div class="col-1 box-detail">
                             <div class="box-skill">
-                                {{-- <img src="assets/images/resume/js.svg" alt="javascript"> --}}
+                                {{-- <img s{{ asset('assets/images/resume/js.svg" alt="javascript"> --}}
                                 <svg width="64px" height="64px" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -222,7 +222,7 @@
                         </div>
                         <div class="col-1 box-detail">
                             <div class="box-skill">
-                                {{-- <img src="assets/images/resume/mysql.svg" alt="mysql"> --}}
+                                {{-- <img s{{ asset('assets/images/resume/mysql.svg" alt="mysql"> --}}
                                 <svg fill="#ffffff" version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px"
                                     viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
@@ -248,7 +248,7 @@
                     <h2 class="section-heading-text">Other Skills</h2>
                     <div class="design-skill-sub-section row align-items-center justify-content-between">
                         <div class="design-resume corner-figma">
-                            {{-- <img src="assets/images/resume/github.svg" alt="GitHub"> --}}
+                            {{-- <img s{{ asset('assets/images/resume/github.svg" alt="GitHub"> --}}
                             <svg width="44px" height="44px" viewBox="0 -0.5 48 48" version="1.1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 fill="#ffffff">
@@ -424,7 +424,7 @@
                                     <div class="flip-box-front">
                                         <div class="inner">
                                             <div class="years-award-img">
-                                                <img src="assets/images/resume/best.png" alt="award"
+                                                <img src="{{ asset('assets/images/resume/best.png')}}" alt="award"
                                                     class="winner-award">
                                                 <p class="award-yer">2025</p>
                                             </div>

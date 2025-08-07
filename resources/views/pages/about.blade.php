@@ -59,9 +59,9 @@
                     </div>
 
                     <div class="col-xl-6 col-lg-6 right-desc">
-                        <img src="assets/images/about/body-bottom.png" alt="image-up" class="images-about">
-                        <img src="assets/images/hero/gk-devimg.png" alt="body-image" class="main-image-about">
-                        <img src="assets/images/about/body-top.png" alt="Image-up" class="images-up-about">
+                        <img src="{{ asset('assets/images/about/body-bottom.png')}}" alt="image-up" class="images-about">
+                        <img src="{{ asset('assets/images/hero/gk-devimg.png')}}" alt="body-image" class="main-image-about">
+                        <img src="{{ asset('assets/images/about/body-top.png')}}" alt="Image-up" class="images-up-about">
                     </div>
                 </div>
             </div>

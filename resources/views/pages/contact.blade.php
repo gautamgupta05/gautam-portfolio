@@ -15,7 +15,7 @@
             <div class="col-lg-4 col-md-6 col-12 text-center">
                 <a href="https://maps.app.goo.gl/JCMQzpySYHrh3Ubx8" target="_blank" class="main-box text-center">
                     <div class="box-call">
-                        <img src="assets/images/contact/location.svg" alt="location">
+                        <img src="{{ asset('assets/images/contact/location.svg')}}" alt="location">
                     </div>
                     <div class="center-main">ADDRESS</div>
                     <p>Noida, India</p>
@@ -24,7 +24,7 @@
             <div class="col-lg-4 col-md-6 col-12 text-center">
                 <a href="mailto:gautamgupta.dev@gmail.com" class="main-box text-center">
                     <div class="box-call">
-                        <img src="assets/images/contact/mail.svg" alt="mail">
+                        <img src="{{ asset('assets/images/contact/mail.svg')}}" alt="mail">
                     </div>
                     <div class="center-main">Email</div>
                     <p>gautamgupta.dev@gmail.com</p>
@@ -33,7 +33,7 @@
             <div class="col-lg-4 col-md-6 col-12 text-center">
                 <a href="tel:+918115812727" class="main-box text-center">
                     <div class="box-call">
-                        <img src="assets/images/contact/phone.svg" alt="phone">
+                        <img src="{{ asset('assets/images/contact/phone.svg')}}" alt="phone">
                     </div>
                     <div class="center-main">PHONE</div>
                     <p>+91 81158 12727</p>
@@ -79,7 +79,7 @@
                 <a href="javascript:void(0)" class="load-port" id="submitContactForm">
                     <div class="load-main">
                         <div class="load-down">
-                            <img src="assets/images/contact/submit.svg" alt="submit" class="icon-down">
+                            <img src="{{ asset('assets/images/contact/submit.svg')}}" alt="submit" class="icon-down">
                         </div>
                         <p>Submit Now</p>
                     </div>

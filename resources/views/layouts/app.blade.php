@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/header/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/images/header/favicon.svg')}}" type="image/x-icon">
     <title>Pro Grow</title>
     <link rel="preconnect" href="../../../../../../fonts.googleapis.com/index.html">
     <link rel="preconnect" href="../../../../../../fonts.gstatic.com/index.html" crossorigin>
@@ -12,9 +12,9 @@
         href="../../../../../../fonts.googleapis.com/css201da.css?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&amp;family=Unbounded:wght@200..900&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../../../../../../cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/media.css')}}">
 </head>
 
 <body>
@@ -50,7 +50,7 @@
     <div id="header-main" data-header>
         <div class="container">
             <header class="header" id="header" data-header>
-                <a href="{{ url('/') }}" class="logo"><img src="assets/images/header/gk-logo.png" alt="logo"></a>
+                <a href="{{ url('/') }}" class="logo"><img src="{{ asset('assets/images/header/gk-logo.png')}}" alt="logo"></a>
                 <div class="menu-icon">
                     <a href="javascript:void(0)"><i class="ri-menu-3-line menu-option"></i></a>
                     <a href="javascript:void(0)"><i class="ri-close-line close-menu"></i></a>
@@ -58,7 +58,7 @@
                 <a href="assets/images/header/Download_CV.pdf" target="_blank" class="download">
                     <div class="down-ander">
                         <div class="images-down">
-                            <img src="assets/images/header/download.svg" alt="download" class="icon-down">
+                            <img src="{{ asset('assets/images/header/download.svg')}}" alt="download" class="icon-down">
                         </div>
                         <p>Download CV</p>
                     </div>
@@ -67,13 +67,13 @@
         </div>
     </div>
     <nav class="main-header-menu">
-        <a href="{{ url('/') }}" class="logo"><img src="assets/images/header/Logo.svg" alt="logo"></a>
+        <a href="{{ url('/') }}" class="logo"><img src="{{ asset('assets/images/header/Logo.svg')}}" alt="logo"></a>
         <div class="container">
             <ul class="tabs-ul-menu">
                 <li class="tabs-li">
                     <a href="About.html" class="list-link">
                         <div class="imag-list">
-                            <img src="assets/images/hero/about.svg" alt="about" class="list-img">
+                            <img src="{{ asset('assets/images/hero/about.svg')}}" alt="about" class="list-img">
                         </div>
                         <p class="name-tab">About</p>
                     </a>
@@ -81,7 +81,7 @@
                 <li class="tabs-li">
                     <a href="resume.html" class="list-link">
                         <div class="imag-list">
-                            <img src="assets/images/hero/resume.svg" alt="about" class="list-img">
+                            <img src="{{ asset('assets/images/hero/resume.svg')}}" alt="about" class="list-img">
                         </div>
                         <p class="name-tab">Resume</p>
                     </a>
@@ -89,7 +89,7 @@
                 <li class="tabs-li">
                     <a href="services.html" class="list-link">
                         <div class="imag-list">
-                            <img src="assets/images/hero/services.svg" alt="about" class="list-img">
+                            <img src="{{ asset('assets/images/hero/services.svg')}}" alt="about" class="list-img">
                         </div>
                         <p class="name-tab">Services</p>
                     </a>
@@ -97,7 +97,7 @@
                 <li class="tabs-li">
                     <a href="portfolio.html" class="list-link">
                         <div class="imag-list">
-                            <img src="assets/images/hero/portfolio.svg" alt="about" class="list-img">
+                            <img src="{{ asset('assets/images/hero/portfolio.svg')}}" alt="about" class="list-img">
                         </div>
                         <p class="name-tab">Portfolio</p>
                     </a>
@@ -105,7 +105,7 @@
                 <li class="tabs-li">
                     <a href="pricing.html" class="list-link">
                         <div class="imag-list">
-                            <img src="assets/images/hero/princing.svg" alt="about" class="list-img">
+                            <img src="{{ asset('assets/images/hero/princing.svg')}}" alt="about" class="list-img">
                         </div>
                         <p class="name-tab">Pricing</p>
                     </a>
@@ -113,7 +113,7 @@
                 <li class="tabs-li">
                     <a href="blogs.html" class="list-link">
                         <div class="imag-list">
-                            <img src="assets/images/hero/blogs.svg" alt="about" class="list-img">
+                            <img src="{{ asset('assets/images/hero/blogs.svg')}}" alt="about" class="list-img">
                         </div>
                         <p class="name-tab">Blogs</p>
                     </a>
@@ -121,7 +121,7 @@
                 <li class="tabs-li">
                     <a href="contact.html" class="list-link">
                         <div class="imag-list">
-                            <img src="assets/images/hero/contact.svg" alt="about" class="list-img">
+                            <img src="{{ asset('assets/images/hero/contact.svg')}}" alt="about" class="list-img">
                         </div>
                         <p class="name-tab">Contact</p>
                     </a>
@@ -130,32 +130,32 @@
             <a href="assets/images/header/Download_CV.pdf" target="_blank" class="download-nav">
                 <div class="down-ander">
                     <div class="images-down">
-                        <img src="assets/images/header/download.svg" alt="download" class="icon-down">
+                        <img src="{{ asset('assets/images/header/download.svg')}}" alt="download" class="icon-down">
                     </div>
                     <p>Download CV</p>
                 </div>
             </a>
             <div class="social-icon-main">
                 <a href="https://medium.com/" class="social-design-main">
-                    <img src="assets/images/footer/medium.svg" alt="medium">
+                    <img src="{{ asset('assets/images/footer/medium.svg')}}" alt="medium">
                 </a>
                 <a href="https://www.instagram.com/" class="social-design-main">
-                    <img src="assets/images/footer/insta.svg" alt="insta">
+                    <img src="{{ asset('assets/images/footer/insta.svg')}}" alt="insta">
                 </a>
                 <a href="https://x.com/?lang=en" class="social-design-main">
-                    <img src="assets/images/footer/twitte.svg" alt="twitte">
+                    <img src="{{ asset('assets/images/footer/twitte.svg')}}" alt="twitte">
                 </a>
                 <a href="mailto:support@davidoutwear.com" class="social-design-main">
-                    <img src="assets/images/footer/mail.svg" alt="mail">
+                    <img src="{{ asset('assets/images/footer/mail.svg')}}" alt="mail">
                 </a>
                 <a href="https://dribbble.com/" class="social-design-main">
-                    <img src="assets/images/footer/drrible.svg" alt="drrible">
+                    <img src="{{ asset('assets/images/footer/drrible.svg')}}" alt="drrible">
                 </a>
                 <a href="https://www.behance.net/" class="social-design-main">
-                    <img src="assets/images/footer/behance.svg" alt="behance">
+                    <img src="{{ asset('assets/images/footer/behance.svg')}}" alt="behance">
                 </a>
                 <a href="https://www.youtube.com/" class="social-design-main">
-                    <img src="assets/images/footer/youtube.svg" alt="youtube">
+                    <img src="{{ asset('assets/images/footer/youtube.svg')}}" alt="youtube">
                 </a>
             </div>
         </div>
@@ -181,16 +181,16 @@
                         <svg fill="#ffffff" width="22px" height="22px" viewBox="-2 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="m17.12 21.857h-14.977v-6.428h-2.143v8.571h19.259v-8.571h-2.139zm-12.616-7.018.442-2.102 10.486 2.21-.442 2.09zm1.379-5.009.898-1.955 9.71 4.54-.898 1.942zm2.692-4.768 1.366-1.647 8.218 6.87-1.366 1.647zm5.313-5.062 6.388 8.585-1.716 1.286-6.386-8.585zm-9.616 19.701v-2.13h10.714v2.13z"></path></g></svg>
                     </a>
                     {{-- <a href="mailto:support@davidoutwear.com" class="social-design">
-                        <img src="assets/images/footer/mail.svg" alt="mail">
+                        <img src="{{ asset('assets/images/footer/mail.svg')}}" alt="mail">
                     </a>
                     <a href="https://dribbble.com/" class="social-design">
-                        <img src="assets/images/footer/drrible.svg" alt="drrible">
+                        <img src="{{ asset('assets/images/footer/drrible.svg')}}" alt="drrible">
                     </a>
                     <a href="https://www.behance.net/" class="social-design">
-                        <img src="assets/images/footer/behance.svg" alt="behance">
+                        <img src="{{ asset('assets/images/footer/behance.svg')}}" alt="behance">
                     </a>
                     <a href="https://www.youtube.com/" class="social-design">
-                        <img src="assets/images/footer/youtube.svg" alt="youtube">
+                        <img src="{{ asset('assets/images/footer/youtube.svg')}}" alt="youtube">
                     </a> --}}
                 </div>
             </div>
@@ -198,23 +198,23 @@
     </footer>
     <!--================ [ Footer section Exit ] ================-->
     <!--================ [Jquery File] ================-->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.min.js')}}"></script>
+    <script src="{{ asset('assets/js/jquery-migrate-1.2.1.min.js')}}"></script>
     <!--================ [magnific-popup File] ================-->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
     <!--=================== [Slick File] ===================-->
-    <script src="assets/js/slick.min.js"></script>
+    <script src="{{ asset('assets/js/slick.min.js')}}"></script>
     <!--=================== [player File] ===================-->
-    <script src="assets/js/player.js"></script>
+    <script src="{{ asset('assets/js/player.js')}}"></script>
     <!--================ [gsap File] ================-->
-    <script src="assets/js/gsap.min.js"></script>
+    <script src="{{ asset('assets/js/gsap.min.js')}}"></script>
     <!--================ [Bootstrap File] ================-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js')}}"></script>
     <!--================ [Separate File] ================-->
-    <script src="assets/js/separate.js"></script>
+    <script src="{{ asset('assets/js/separate.js')}}"></script>
     <!--================ [script File] ================-->
 
-    <script src="assets/js/script.js"></script>
+    <script src="{{ asset('assets/js/script.js')}}"></script>
 </body>
 
 </html>

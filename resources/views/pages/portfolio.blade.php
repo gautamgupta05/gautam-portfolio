@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css')}}">
     <!--================= [ Hero section Start ] =================-->
     <div class="hero" id="hero">
         <div class="container">
@@ -21,10 +21,10 @@
                                     <!-- HRM System -->
                                     <a href="#services-popup-content">
                                         <div class="image-container popup-btn zoom_in">
-                                            <img src="assets/images/portfolio/hrms.webp"
+                                            <img src="{{ asset('assets/images/portfolio/hrms.webp')}}"
                                                 style=" width: 366px; height: 297px; " alt="HRM System">
                                             {{-- <div class="overlay">
-                                                <img src="assets/images/portfolio/content-svg.svg" alt="icon"
+                                                <img src="{{ asset('assets/images/portfolio/content-svg.svg')}}" alt="icon"
                                                     class="vimeo-icon">
                                             </div> --}}
                                             <p class="meni-images">HRM</p>
@@ -39,10 +39,10 @@
                                     <!-- CMS + LMS -->
                                     <div class="second-row-portfolio youtube zoom_in">
                                         <div class="image-container">
-                                            <img src="assets/images/portfolio/lead-managment.jpg"
+                                            <img src="{{ asset('assets/images/portfolio/lead-managment.jpg')}}"
                                                 style=" width: 366px; height: 366px; " alt="CMS LMS">
                                             {{-- <div class="overlay">
-                                                <img src="assets/images/portfolio/vimeo-svg.svg" alt="icon"
+                                                <img src="{{ asset('assets/images/portfolio/vimeo-svg.svg')}}" alt="icon"
                                                     class="vimeo-icon">
                                             </div> --}}
                                         <p class="meni-images">Lead Managment</p>
@@ -58,10 +58,10 @@
                                 <div class="meta-ander">
                                     <!-- Job Portal -->
                                     <div class="image-container zoom_in">
-                                        <img src="assets/images/portfolio/job-portal.jpg"
+                                        <img src="{{ asset('assets/images/portfolio/job-portal.jpg')}}"
                                             style=" width: 366px; height: 366px; " alt="Job Portal">
                                         {{-- <div class="overlay">
-                                            <img src="assets/images/portfolio/youtube-svg.svg" alt="icon"
+                                            <img src="{{ asset('assets/images/portfolio/youtube-svg.svg')}}" alt="icon"
                                                 class="vimeo-icon">
                                         </div> --}}
                                         <p class="meni-images">Job Portal</p>
@@ -75,10 +75,10 @@
                                     <!-- Task Panel -->
                                     <div class="second-row-portfolio">
                                         <div class="image-container">
-                                            <img src="assets/images/portfolio/task-management-system.png"
+                                            <img src="{{ asset('assets/images/portfolio/task-management-system.png')}}"
                                                 style=" width: 366px; height: 297px; " alt="Task Management">
                                             {{-- <div class="overlay">
-                                                <img src="assets/images/portfolio/content-svg.svg" alt="icon"
+                                                <img src="{{ asset('assets/images/portfolio/content-svg.svg')}}" alt="icon"
                                                     class="vimeo-icon">
                                             </div> --}}
                                         <p class="meni-images">Task System</p>
@@ -96,10 +96,10 @@
                             <div class="gallery-bank-section">
                                 <div class="zoom_in">
                                     <div class="image-container">
-                                        <img src="assets/images/portfolio/Content-Management-System.png"
+                                        <img src="{{ asset('assets/images/portfolio/Content-Management-System.png')}}"
                                             style=" width: 366px; height: 297x; "alt="SEO CRM" class="overlay-image">
                                         {{-- <div class="overlay">
-                                            <img src="assets/images/portfolio/gallery-svg.svg" alt="gallery-svg"
+                                            <img src="{{ asset('assets/images/portfolio/gallery-svg.svg')}}" alt="gallery-svg"
                                                 class="vimeo-icon">
                                         </div> --}}
                                     <p class="meni-images">SEO CRM</p>
@@ -114,10 +114,10 @@
                                 <!-- Placeholder Project -->
                                 <div class="second-row-portfolio">
                                     <div class="image-container">
-                                        <img src="assets/images/portfolio/Lms.jpeg" style=" width: 366px; height: 366px; "
+                                        <img src="{{ asset('assets/images/portfolio/Lms.jpeg')}}" style=" width: 366px; height: 366px; "
                                             alt="Coming Soon">
                                         {{-- <div class="overlay">
-                                            <img src="assets/images/portfolio/sound-svg.svg" alt="content-svg"
+                                            <img src="{{ asset('assets/images/portfolio/sound-svg.svg')}}" alt="content-svg"
                                                 class="vimeo-icon">
                                         </div> --}}
                                     <p class="meni-images">Learning Managment</p>
@@ -132,7 +132,7 @@
                         <a href="javascript:void(0)" class="load-port" id="loadMore">
                             <div class="load-main">
                                 <div class="load-down">
-                                    <img src="assets/images/portfolio/loader.svg" alt="download" class="icon-down">
+                                    <img src="{{ asset('assets/images/portfolio/loader.svg')}}" alt="download" class="icon-down">
                                 </div>
                                 <p>Load More</p>
                             </div>
@@ -146,7 +146,7 @@
             <div id="services-popup-content" class="popup-container">
                 <div class="popup-content popup-content2">
                     <a href="#" class="close"><i class="ri-close-line"></i></a>
-                    <img class="blog-popup-img1" src="assets/images/portfolio/content.png" alt="gallery-img8">
+                    <img class="blog-popup-img1" src="{{ asset('assets/images/portfolio/content.png')}}" alt="gallery-img8">
                     <h2 class="simple-steps">Corporate Branding</h2>
                     <p class="blog-sit-text">European languages are members of the same family. The languages only
                         differ in their grammar, their pronu nciation and
@@ -159,10 +159,10 @@
                     </p>
                     <div class="row align-items-center justify-content-between">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/corporat-2.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/corporat-2.png')}}" alt="content-img2">
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/corporate-3.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/corporate-3.png')}}" alt="content-img2">
                         </div>
                     </div>
                     <p class="blog-sit-text">European languages are members of the same family. The languages only
@@ -185,7 +185,7 @@
                             </p>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 images-pot">
-                            <img src="assets/images/portfolio/corporat-2.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/corporat-2.png')}}" alt="content-img2">
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
             <div class="vimeo-shadowbox vimeo-shadowbox--hidden">
                 <div class="vimeo-shadowbox__video-wrapper">
                     <div class="vimeo-shadowbox__video">
-                        <iframe src="https://player.vimeo.com/video/76979871" width="640" height="360"></iframe>
+                        <iframe src="{{ asset('https://player.vimeo.com/video/76979871" width="640" height="360"></iframe>
                     </div>
                     <a class="vimeo-shadowbox__close-button" href="#">X</a>
                 </div>
@@ -205,7 +205,7 @@
             <div id="services-popup-managenebt" class="popup-container">
                 <div class="popup-content popup-content2">
                     <a href="#" class="close"><i class="ri-close-line"></i></a>
-                    <img class="blog-popup-img1" src="assets/images/portfolio/Dashbord.png" alt="gallery-img8">
+                    <img class="blog-popup-img1" src="{{ asset('assets/images/portfolio/Dashbord.png')}}" alt="gallery-img8">
                     <h2 class="simple-steps">Management Dashboard</h2>
                     <p class="blog-sit-text">European languages are members of the same family. The languages only
                         differ in their grammar, their pronu nciation and
@@ -218,10 +218,10 @@
                     </p>
                     <div class="row align-items-center justify-content-between">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/dhashboerd.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/dhashboerd.png')}}" alt="content-img2">
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/dhashbord.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/dhashbord.png')}}" alt="content-img2">
                         </div>
                     </div>
                     <p class="blog-sit-text">European languages are members of the same family. The languages only
@@ -244,7 +244,7 @@
                             </p>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 images-pot">
-                            <img src="assets/images/portfolio/Dashbord.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/Dashbord.png')}}" alt="content-img2">
                         </div>
                     </div>
                 </div>
@@ -257,34 +257,34 @@
                     <h2 class="simple-steps">Gallary</h2>
                     <div class="row align-items-center justify-content-between mt-5">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/images-1.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/images-1.png')}}" alt="content-img2">
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/images-2.png" alt="content-img2">
-                        </div>
-                    </div>
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/images-3.png" alt="content-img2">
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/images-4.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/images-2.png')}}" alt="content-img2">
                         </div>
                     </div>
                     <div class="row align-items-center justify-content-between">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/images-5.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/images-3.png')}}" alt="content-img2">
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/images-6.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/images-4.png')}}" alt="content-img2">
                         </div>
                     </div>
                     <div class="row align-items-center justify-content-between">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/images-7.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/images-5.png')}}" alt="content-img2">
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
-                            <img src="assets/images/portfolio/images-8.png" alt="content-img2">
+                            <img src="{{ asset('assets/images/portfolio/images-6.png')}}" alt="content-img2">
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
+                            <img src="{{ asset('assets/images/portfolio/images-7.png')}}" alt="content-img2">
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 images-pot">
+                            <img src="{{ asset('assets/images/portfolio/images-8.png')}}" alt="content-img2">
                         </div>
                     </div>
                 </div>
