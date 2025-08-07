@@ -39,4 +39,10 @@ COPY ./supervisord.conf /etc/supervisord.conf
 
 EXPOSE 80
 
+# Create SQLite DB file and set permissions
+RUN mkdir -p /var/www/database && \
+    touch /var/www/database/database.sqlite && \
+    chown -R www-data:www-data /var/www/database
+
+
 CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
