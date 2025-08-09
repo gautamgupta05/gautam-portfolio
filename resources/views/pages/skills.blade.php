@@ -337,14 +337,15 @@
             header .loicon {
                 margin-top: 144px;
             }
+             .top-right-actions {
+                top: 96px;
+            }
 
             .stage {
                 gap: 20px;
             }
 
-            .top-right-actions {
-                top: 96px;
-            }
+           
 
             .person {
                 width: 150px;
@@ -372,6 +373,12 @@
                 padding: 16px;
             }
 
+                header .loicon {
+                margin-top: 244px;
+            }
+             .top-right-actions {
+                top: 200px;
+            }
             header h1 {
                 font-size: 20px;
             }
@@ -442,6 +449,12 @@
                 height: 90px;
             }
 
+             header .loicon {
+                margin-top: 126%;
+            }
+             .top-right-actions {
+                top: 25%;
+            }
             .rakhi-inner {
                 width: 65px;
                 height: 65px;
