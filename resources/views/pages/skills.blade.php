@@ -321,136 +321,144 @@
 
         /* responsive */
         /* responsive */
-      /* Tablet view — less than 820px wide */
-@media (max-width: 820px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 8px;
-  }
+        /* Tablet view — less than 820px wide */
+        @media (max-width: 820px) {
+            header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 8px;
+            }
 
-  header h1 {
-    font-size: 22px;
-  }
+            header h1 {
+                font-size: 22px;
+            }
 
-  .stage {
-    gap: 20px;
-  }
+            header .loicon {
+                margin-top: 144px;
+            }
 
-  .person {
-    width: 150px;
-    height: 150px;
-  }
+            .stage {
+                gap: 20px;
+            }
 
-  .center-rakhi {
-    width: 120px;
-    height: 120px;
-  }
+            .top-right-actions {
+                top: 96px;
+            }
 
-  .rakhi-inner {
-    width: 90px;
-    height: 90px;
-  }
-}
+            .person {
+                width: 150px;
+                height: 150px;
+            }
 
-/* Mobile view — less than 600px wide */
-@media (max-width: 600px) {
-  body {
-    padding: 16px;
-  }
+            .center-rakhi {
+                width: 120px;
+                height: 120px;
+            }
 
-  .wrap {
-    padding: 16px;
-  }
+            .rakhi-inner {
+                width: 90px;
+                height: 90px;
+            }
+        }
 
-  header h1 {
-    font-size: 20px;
-  }
+        /* Mobile view — less than 600px wide */
+        @media (max-width: 600px) {
+            body {
+                padding: 16px;
+            }
 
-  header p.small {
-    font-size: 13px;
-  }
+            .wrap {
+                padding: 16px;
+            }
 
-  .stage {
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-  }
+            header h1 {
+                font-size: 20px;
+            }
 
-  .person {
-    width: 130px;
-    height: 130px;
-    border-width: 4px;
-  }
+            header p.small {
+                font-size: 13px;
+            }
 
-  .center-rakhi {
-    width: 110px;
-    height: 110px;
-  }
+            .stage {
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+            }
 
-  .rakhi-inner {
-    width: 80px;
-    height: 80px;
-  }
+            .person {
+                width: 130px;
+                height: 130px;
+                border-width: 4px;
+            }
 
-  .message-card {
-    padding: 14px;
-    text-align: center;
-  }
+            .center-rakhi {
+                width: 110px;
+                height: 110px;
+            }
 
-  .typewriter {
-    font-size: 16px;
-    padding: 10px;
-  }
+            .rakhi-inner {
+                width: 80px;
+                height: 80px;
+            }
 
-  .controls {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-  }
+            .message-card {
+                padding: 14px;
+                text-align: center;
+            }
 
-  .btn {
-    padding: 8px 14px;
-    font-size: 14px;
-  }
+            .typewriter {
+                font-size: 16px;
+                padding: 10px;
+            }
 
-  .sig-edit {
-    flex-direction: column;
-    gap: 6px;
-    align-items: center;
-  }
-}
+            .controls {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 8px;
+            }
 
-/* Small phone view — less than 400px wide */
-@media (max-width: 400px) {
-  .person {
-    width: 110px;
-    height: 110px;
-  }
+            .btn {
+                padding: 8px 14px;
+                font-size: 14px;
+            }
 
-  .center-rakhi {
-    width: 90px;
-    height: 90px;
-  }
+            .sig-edit {
+                flex-direction: column;
+                gap: 6px;
+                align-items: center;
+            }
+        }
 
-  .rakhi-inner {
-    width: 65px;
-    height: 65px;
-  }
+        /* Small phone view — less than 400px wide */
+        @media (max-width: 400px) {
+            .person {
+                width: 110px;
+                height: 110px;
+            }
 
-  .typewriter {
-    font-size: 14px;
-  }
+            .center-rakhi {
+                width: 90px;
+                height: 90px;
+            }
 
-  .btn {
-    font-size: 13px;
-  }
+            .rakhi-inner {
+                width: 65px;
+                height: 65px;
+            }
 
-  .small {
-    font-size: 12px;
-  }
-}
+            .typewriter {
+                font-size: 14px;
+            }
+
+            .btn {
+                font-size: 13px;
+            }
+
+            .small {
+                font-size: 12px;
+            }
+        }
 
         /* tiny flourish */
         .sig-edit {
@@ -470,7 +478,7 @@
         .top-right-actions {
             position: absolute;
             right: 18px;
-            top: 18px;
+            /* top: 18px; */
             display: flex;
             gap: 8px
         }
@@ -488,6 +496,11 @@
 
 <body>
     <div class="wrap" role="main">
+        <!-- YouTube Background Music -->
+        <iframe id="ytAudio"
+            src="https://www.youtube.com/embed/xnNDZYh9_Hw?autoplay=1&loop=1&playlist=xnNDZYh9_Hw&controls=0&start=0"
+            style="display:none">
+        </iframe>
         <div class="top-right-actions">
             <label class="ghost" title="Upload background music">
                 🔊 Add background music
@@ -497,7 +510,7 @@
         </div>
 
         <header>
-            <div
+            <div class="loicon"
                 style="width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px">
                 R</div>
             <div>
@@ -563,6 +576,8 @@
             "I miss our childhood — the sweets, the laughter, the little fights. Today I tie this virtual rakhi and send you my warmest hugs. 🪢",
             "May your life be full of success, health and bright days. I pray for your happiness every day. 🌟",
             "Distance can only keep us apart for a while; my heart is always with you. Come visit soon — I miss you! 😘",
+            "💝 Wishing you endless happiness, health, and success.",
+            "💖 Even though we are miles apart, my love for you is always close to your heart.",
             "Lots of love, your brother — <span id='sigOut'>Gautam</span>. Click 'Surprise' for a little treat! 🎁"
         ];
         // ====================================================
@@ -807,35 +822,46 @@
 
 
         // music handling
-        const musicInput = document.getElementById('musicInput');
-        const musicToggle = document.getElementById('musicToggle');
-        let audio = new Audio();
-        audio.loop = true;
-        let hasAudio = false;
-        musicInput.addEventListener('change', (e) => {
-            const f = e.target.files[0];
-            if (!f) return;
-            const url = URL.createObjectURL(f);
-            audio.src = url;
-            audio.load();
-            hasAudio = true;
-            saveToLocal('rakhiMusic', url);
-            musicToggle.innerText = 'Play';
-        });
-        musicToggle.addEventListener('click', () => {
-            if (!hasAudio && !audio.src) {
-                alert('Upload a music file first using the Add background music button.');
-                return
-            }
-            if (audio.paused) {
+        let audio = null; // For uploaded file
+        let isPlaying = true;
+
+        document.getElementById('musicInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                // Stop YouTube iframe music
+                document.getElementById('ytAudio').src = '';
+                // Play uploaded music
+                const url = URL.createObjectURL(file);
+                audio = new Audio(url);
+                audio.loop = true;
                 audio.play();
-                musicToggle.innerText = 'Pause'
-            } else {
-                audio.pause();
-                musicToggle.innerText = 'Play'
+                isPlaying = true;
+                document.getElementById('musicToggle').innerText = 'Pause';
             }
         });
 
+        document.getElementById('musicToggle').addEventListener('click', function() {
+            if (audio) {
+                if (isPlaying) {
+                    audio.pause();
+                    this.innerText = 'Play';
+                } else {
+                    audio.play();
+                    this.innerText = 'Pause';
+                }
+            } else {
+                // Toggle iframe music by muting/unmuting
+                const iframe = document.getElementById('ytAudio');
+                if (isPlaying) {
+                    iframe.contentWindow.postMessage('{"event":"command","func":"mute","args":""}', '*');
+                    this.innerText = 'Play';
+                } else {
+                    iframe.contentWindow.postMessage('{"event":"command","func":"unMute","args":""}', '*');
+                    this.innerText = 'Pause';
+                }
+            }
+            isPlaying = !isPlaying;
+        });
         // hover surprises
         document.getElementById('rightPerson').addEventListener('mouseenter', () => {
             spawnHearts(10)
