@@ -60,7 +60,7 @@
                     <a href="javascript:void(0)"><i class="ri-menu-3-line menu-option"></i></a>
                     <a href="javascript:void(0)"><i class="ri-close-line close-menu"></i></a>
                 </div>
-                <a href="{{ asset('assets/images/header/Gautam-resume.pdf') }}" target="_blank" class="download">
+                <a href="{{ asset('assets/images/header/Gautam-gupta-resume.pdf') }}" target="_blank" class="download">
                     <div class="down-ander">
                         <div class="images-down">
                             <img src="{{ asset('assets/images/header/download.svg') }}" alt="download"
@@ -109,7 +109,7 @@
                      <p class="name-tab">Contact</p>
                  </a> --}}
             </ul>
-            <a href="{{ asset('assets/images/header/Gautam-resume.pdf') }}" target="_blank" class="download-nav">
+            <a href="{{ asset('assets/images/header/Gautam-gupta-resume.pdf') }}" target="_blank" class="download-nav">
                 <div class="down-ander">
                     <div class="images-down">
                         <img src="{{ asset('assets/images/header/download.svg') }}" alt="download"
