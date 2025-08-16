@@ -85,7 +85,7 @@ $(document).ready(function () {
 });
 // -------------------------Type word animation
 window.onload = function () {
-  const txt = ["Web Developer"];
+  const txt = ["Laravel Developer","Web Developer","PHP Developer"];
   let i = 0,
     j = 0;
   let end = false;

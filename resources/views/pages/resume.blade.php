@@ -8,7 +8,7 @@
                 <!--=================== [ Education Start ] ===================-->
                 <div class="education-exper">
                     <div class="row">
-                        <div class="col-xxl-6 col-lg-6">
+                        <div class="col-xxl-12 col-lg-6">
                             <h2 class="section-heading-text exper-resumne">Experience</h2>
                             <span class="section-length">Professional experience in Laravel, PHP, and CMS/LMS-based web
                                 platforms.</span>

@@ -49,14 +49,14 @@
                      <p class="name-tab">Blogs</p>
                  </a>
              </li> --}}
-             <li class="tabs-li" data-tab="Contact">
+             {{-- <li class="tabs-li" data-tab="Contact">
                  <a href="{{ route('contact') }}" class="list-link">
                      <div class="imag-list">
                          <img src="{{ asset('assets/images/hero/contact.svg')}}" alt="about" class="list-img">
                      </div>
                      <p class="name-tab">Contact</p>
                  </a>
-             </li>
+             </li> --}}
          </ul>
      </div>
  </nav>

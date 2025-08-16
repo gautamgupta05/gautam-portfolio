@@ -31,7 +31,7 @@
                                     </li>
                                     <li>
                                         <span>Email:</span>
-                                        <p>gautamgupta.dev@gmail.com</p>
+                                        <p>gautam.tech05@gmail.com</p>
                                     </li>
                                 </ul>
                             </div>
@@ -42,16 +42,8 @@
                                         <p>4+ years</p>
                                     </li>
                                     <li>
-                                        <span>Freelance:</span>
-                                        <p>Available</p>
-                                    </li>
-                                    <li>
-                                        <span>Github:</span>
-                                        <p>gautamgupta05</p>
-                                    </li>
-                                    <li>
                                         <span>Language:</span>
-                                        <p>English, Hindi</p>
+                                        <p>Hindi, English</p>
                                     </li>
                                 </ul>
                             </div>
