@@ -28,7 +28,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 right-desc">
                         <img src="{{ asset('assets/images/hero/imag-down.svg')}}" alt="image-up" class="images-hero">
-                        <img src="{{ asset('assets/images/hero/gk-devimg.png')}}" alt="right" class="main-image">
+                        <img src="{{ asset('assets/images/hero/gk-trns-dev.png')}}" alt="right" class="main-image">
                         <img src="{{ asset('assets/images/hero/Image-up.svg')}}" alt="Image-up" class="images-up">
                     </div>
                 </div>
